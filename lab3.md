@@ -32,6 +32,7 @@ public void testAppendTwoElements(){
 }
 ```
 Output:
+
 ![IMAGE](testpass.png)
 ## Test That Will Induce a Fail
 ```
@@ -47,6 +48,7 @@ public void testAppendThreeElements(){
 }
 ```
 Output:
+
 ![IMAGE](testfail.png)
 
 Bug: The issue with the ```append()``` method is the while loop for linked lists with more than 1 element. The loop attempts to add a new Node when it reaches a node which has null for its next value. However, it continues to loop and initializes a next value for each iterated node. Therefore, it loops infinitely since a node will always have a next value before it is checked if it is null.
