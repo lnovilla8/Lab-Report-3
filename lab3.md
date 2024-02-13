@@ -36,6 +36,7 @@ Output:
 ![IMAGE](testpass.png)
 ## Test That Will Induce a Fail
 ```
+@Test
 public void testAppendThreeElements(){
   LinkedList list = new LinkedList();
   list.append(1);
