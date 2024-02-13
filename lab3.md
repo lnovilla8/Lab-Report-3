@@ -76,7 +76,7 @@ This fixes the issue of appending onto linked lists with more than 1 element bec
 
 ## find -name
 Search: "find command line options"
-Source: https://www.redhat.com/sysadmin/linux-find-command
+Source: [https://www.redhat.com/sysadmin/linux-find-command](URL)
 ```
 (base) lnovilla@Lawrences-MacBook-Air-2 technical % find ./plos -name "pmed.001001*"
 ./plos/pmed.0010010.txt
@@ -91,7 +91,7 @@ The find -name command is returning every path for files that contain the string
 
 ## find -type
 Search: "find command line options"
-Source: https://www.redhat.com/sysadmin/linux-find-command
+Source: [https://www.redhat.com/sysadmin/linux-find-command](URL)
 ```
 (base) lnovilla@Lawrences-MacBook-Air-2 technical % find ./government -type d
 ./government
@@ -111,7 +111,7 @@ The find -type command with help of -empty returns the path of any file that is 
 
 ## find -size
 Search: "How to use find command"
-Source: https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
+Source: [https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size](URL)
 ```
 (base) lnovilla@Lawrences-MacBook-Air-2 technical % find ./biomed -size +100k
 ./biomed/1471-2105-3-2.txt
@@ -130,7 +130,7 @@ The find -size command is returning the path for any files in the directory that
 
 ## find -delete
 Search: "how to find and delete command"
-Source: https://www.cyberciti.biz/faq/linux-unix-how-to-find-and-remove-files/
+Source: [https://www.cyberciti.biz/faq/linux-unix-how-to-find-and-remove-files/](URL)
 ```
 (base) lnovilla@Lawrences-MacBook-Air-2 technical % find ./biomed  -name "1468*" -delete        
 (base) lnovilla@Lawrences-MacBook-Air-2 technical % 
